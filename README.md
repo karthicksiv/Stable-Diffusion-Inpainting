@@ -18,6 +18,11 @@
 git clone https://github.com/yourusername/Stable-Diffusion-Inpainting.git
 ```
 
+3. **Create Virtual Environment:**
+
+``` bash
+python -m venv myenv
+```
 
 2. **Install the required dependencies:**
 
@@ -25,11 +30,6 @@ git clone https://github.com/yourusername/Stable-Diffusion-Inpainting.git
 cd Stable-Diffusion-Inpainting
 pip install -r requirements.txt
 ```
-
-
-3. **Download the necessary model checkpoints:**
-- SAM checkpoint: [link_to_sam_checkpoint]
-- Place the downloaded checkpoint in the `weights` directory.
 
 ## Usage
 
